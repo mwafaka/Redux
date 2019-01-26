@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { fetchPosts } from "../action/postAction";
 export class Posts extends Component {
-  componentWillUnmount() {
+  componentWillMount() {
     this.props.fetchPosts();
   }
   render() {

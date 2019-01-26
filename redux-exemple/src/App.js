@@ -11,11 +11,9 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div>
-          <header>
-            <Postform />
-            <hr />
-            <Posts />
-          </header>
+          <Postform />
+          <hr />
+          <Posts />
         </div>
       </Provider>
     );
